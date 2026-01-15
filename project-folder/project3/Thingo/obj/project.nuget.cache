@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zVBSnT2y8V8=",
+  "dgSpecHash": "2MPqL2Bv52g=",
   "success": true,
-  "projectFilePath": "/Users/codyjensen/Documents/Documents - Cody’s MacBook Pro/GitHub/WWR/Supersite/project-folder/project3/Thingo/FinalProject.csproj",
+  "projectFilePath": "/Users/codyjensen/Documents/Documents - Cody’s MacBook Pro/college/2025 winter/wdd130/Profile/project-folder/project3/Thingo/FinalProject.csproj",
   "expectedPackageFiles": [
     "/Users/codyjensen/.nuget/packages/microsoft.netcore.app.ref/8.0.23/microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
     "/Users/codyjensen/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.23/microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512",

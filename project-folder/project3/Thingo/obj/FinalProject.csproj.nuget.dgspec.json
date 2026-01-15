@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/codyjensen/Documents/Documents - Cody’s MacBook Pro/GitHub/WWR/Supersite/project-folder/project3/Thingo/FinalProject.csproj": {}
+    "/Users/codyjensen/Documents/Documents - Cody’s MacBook Pro/college/2025 winter/wdd130/Profile/project-folder/project3/Thingo/FinalProject.csproj": {}
   },
   "projects": {
-    "/Users/codyjensen/Documents/Documents - Cody’s MacBook Pro/GitHub/WWR/Supersite/project-folder/project3/Thingo/FinalProject.csproj": {
+    "/Users/codyjensen/Documents/Documents - Cody’s MacBook Pro/college/2025 winter/wdd130/Profile/project-folder/project3/Thingo/FinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/codyjensen/Documents/Documents - Cody’s MacBook Pro/GitHub/WWR/Supersite/project-folder/project3/Thingo/FinalProject.csproj",
+        "projectUniqueName": "/Users/codyjensen/Documents/Documents - Cody’s MacBook Pro/college/2025 winter/wdd130/Profile/project-folder/project3/Thingo/FinalProject.csproj",
         "projectName": "FinalProject",
-        "projectPath": "/Users/codyjensen/Documents/Documents - Cody’s MacBook Pro/GitHub/WWR/Supersite/project-folder/project3/Thingo/FinalProject.csproj",
+        "projectPath": "/Users/codyjensen/Documents/Documents - Cody’s MacBook Pro/college/2025 winter/wdd130/Profile/project-folder/project3/Thingo/FinalProject.csproj",
         "packagesPath": "/Users/codyjensen/.nuget/packages/",
-        "outputPath": "/Users/codyjensen/Documents/Documents - Cody’s MacBook Pro/GitHub/WWR/Supersite/project-folder/project3/Thingo/obj/",
+        "outputPath": "/Users/codyjensen/Documents/Documents - Cody’s MacBook Pro/college/2025 winter/wdd130/Profile/project-folder/project3/Thingo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/codyjensen/.nuget/NuGet/NuGet.Config"
