@@ -1,0 +1,79 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #FFFFFF;
+    --secondary-color: #000000;
+    --accent1-color: #C76B60;
+    --accent2-color: #85A6CA;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: Helvetica;
+    --paragraph-font: comic,sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #000000;  /* headlines on a white background */ 
+    --headline-color-on-color: #000000; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #C76B60; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #FFFFFF ;
+    --nav-link-color: #C76B60;
+    --nav-background-color: #FFFFFF;
+    --nav-hover-link-color: #85A6CB;
+    --nav-hover-background-color: #FFFFFF;
+    --nav-visited-color:#C74B20;
+    --super-background-color:#C5B9AD;
+  }
+
+.main_page.mode_column .columns{min-height:400px;display:flex;align-items:flex-start}
+.main_page.mode_column .columns>*{position:sticky;top:10px}@media (max-width: 800px){.main_page.mode_column .columns>*{position:sticky}}
+.text_header{
+    font:var(--heading-font);
+    color: var(--headline-color-on-white)
+}
+
+
+.user_page_wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 80px;
+}
+a:link, a:visited{
+    color: var(--nav-link-color);
+}
+a:hover {
+    color: var(--nav-hover-link-color);
+}
+.profile_column{
+    margin-right:60px;
+    font-family: var(--paragraph-font);
+}
+.game_cell_data{
+    font-family:var(--paragraph-font)
+}
+.link_group{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.links_box{
+    display: flex;
+    gap: 2px 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom:20px;
+}
+footer{
+  border-top: 1px solid #dadada;
+  font-size: 12px;
+}
+.game_cell{
+    padding-bottom:30px;
+}
+.main_logo{
+    float: left;
+}
+
+
+
+
+
