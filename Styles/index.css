@@ -29,7 +29,10 @@
     font:var(--heading-font);
     color: var(--headline-color-on-white)
 }
-
+.text_header img{
+    float: left;
+    padding-right: 15px;
+}
 
 .user_page_wrap{
   display: flex;
