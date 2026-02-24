@@ -70,9 +70,15 @@
                         <script>
                             function myFunction() {
                                 function displayText(text) {
-                                    // Using innerHTML to modify the content of an existing element
-                                    document.getElementById("feedback").innerHTML = text;
+                                    const feedbackElement = document.getElementById("feedback");
+                                    feedbackElement.innerHTML = text;
+
+                                    // Clear the text after 5 seconds (5000 milliseconds)
+                                    setTimeout(function () {
+                                        feedbackElement.innerHTML = "";
+                                    }, 5000);
                                 }
+
                                 displayText("thank you for your submission");
                             }
 
@@ -100,7 +106,8 @@
                             <th>Look its METAL SONIC</th>
                         </tr>
                         <tr>
-                            <td><img height="250" width="250" src="Images/gregor_the_shark.png" alt="gregor_the_shark"></td>
+                            <td><img height="250" width="250" src="Images/gregor_the_shark.png" alt="gregor_the_shark">
+                            </td>
                             <td><img height="250" width="250" src="Images/sonc.png" alt="metal sonic art"></td>
                         </tr>
                     </table>
