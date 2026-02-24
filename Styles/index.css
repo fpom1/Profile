@@ -172,6 +172,6 @@ table{
     padding-top: 100px;
 }
 .game_column{
-        background-color: #BDDDDD;
+        background-color: var(--super-background-color);
         padding: 10px;
 }
