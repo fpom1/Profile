@@ -75,6 +75,23 @@ footer{
 .main_logo{
     float: left;
 }
+/*new*/
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: contents;      
+}
+  .button {
+    padding-left: 90px; 
+  }
+  
+  button {
+    margin-left: 0.5em;
+  }
 
 
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,27 +20,68 @@
                 <div class="profile_column">
                     <div class="links_box">
                         <span class="link_group">
-                            <img src="Images/youtube.png"  height="18" width="25" alt="youtube icon"> 
+                            <img src="Images/youtube.png" height="18" width="25" alt="youtube icon">
                             <a href="https://www.youtube.com/">youtube</a>
                         </span>
                         <span class="link_group">
-                            <img src="Images/bsky.png"  height="18" width="18" alt="bluesky icon"> 
+                            <img src="Images/bsky.png" height="18" width="18" alt="bluesky icon">
                             <a href="https://bsky.app">Bluesky</a>
                         </span>
                     </div>
                     <div class="user_profile">
                         <p>
                             As a coding hobbyist, I really enjoy making games.
-                             I also enjoy making projects in other fields like 
-                             machine learning and mathematics. This webpage 
-                             exists as a sort of portfolio and a way for me to 
-                             share the projects that I work on with others.
-                             If you want to see some other things I've worked 
-                             on that dont fit in this portfolio, or if you want 
-                             to see the devlogs of some of my larger projects, check
-                             out my youtube channel at                              <a href="https://www.youtube.com/channel/UCjdOPsCwgoxPwU90pSIqZgA">                             <a href="https://www.youtube.com/channel/UCjdOPsCwgoxPwU90pSIqZgA">https://www.youtube.com/channel/UCjdOPsCwgoxPwU90pSIqZgA</a></a>
+                            I also enjoy making projects in other fields like
+                            machine learning and mathematics. This webpage
+                            exists as a sort of portfolio and a way for me to
+                            share the projects that I work on with others.
+                            If you want to see some other things I've worked
+                            on that dont fit in this portfolio, or if you want
+                            to see the devlogs of some of my larger projects, check
+                            out my youtube channel at <a
+                                href="https://www.youtube.com/channel/UCjdOPsCwgoxPwU90pSIqZgA"> <a
+                                href="https://www.youtube.com/channel/UCjdOPsCwgoxPwU90pSIqZgA">https://www.youtube.com/channel/UCjdOPsCwgoxPwU90pSIqZgA</a></a>
                         </p>
                     </div>
+                    <br><br><br><br>
+                    <!-- new form -->
+                    <div class="form">
+                        <form action="/my-handling-form-page" method="post">
+                            <p>
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="user_name" />
+                            </p>
+                            <p>
+                                <label for="mail">Email:</label>
+                                <input type="email" id="mail" name="user_email" />
+                            </p>
+                            <p>
+                                <label for="msg">Message:</label>
+                                <textarea id="msg" name="user_message"></textarea>
+                            </p>
+                        </form>
+                        <p class="myButton">
+                            <button id="myButton" type="submit">Send your message</button>
+                        </p>
+                        </form>
+                        <div id="feedback"> </div>
+                        <script>
+                            function myFunction() {
+                                function displayText(text) {
+                                    // Using innerHTML to modify the content of an existing element
+                                    document.getElementById("feedback").innerHTML = text;
+                                }
+                                displayText("thank you for your submission");
+                            }
+
+                            // Get the button element by its ID
+                            const button = document.getElementById("myButton");
+
+                            // Add an event listener to the button
+                            button.addEventListener("click", myFunction);
+                        </script>
+                    </div>
+                    <!-- end form -->
                 </div>
 
 
@@ -54,7 +96,7 @@
                         </div>
                         <div class="game_cell_data">
                             <div class="game_title">
-                                <a class="title game_link" href="project-folder/project1/project.html" >
+                                <a class="title game_link" href="project-folder/project1/project.html">
                                     Pong
                                 </a>
                             </div>
@@ -65,7 +107,7 @@
                     </div>
 
 
-                    <div class="game_cell" >
+                    <div class="game_cell">
                         <div class="game_thumb">
                             <a class="thumb_link game_link" href="project-folder/project2/project.html" tabindex="-1">
                                 <img height="250" width="350" src="Images/p2.png" alt="project 2 thumbnail">
@@ -74,7 +116,7 @@
                         <div class="game_cell_data">
                             <div class="game_title">
                                 <a class="title game_link" href="project-folder/project2/project.html">
-                                   Image Encryptor
+                                    Image Encryptor
                                 </a>
                             </div>
                             <div title="Project description" class="game_text">
@@ -84,7 +126,7 @@
                     </div>
 
 
-                    <div class="game_cell" >
+                    <div class="game_cell">
                         <div class="game_thumb">
                             <a class="thumb_link game_link" href="project-folder/project3/project.html" tabindex="-1">
                                 <img height="250" width="350" src="Images/p3.webp" alt="project 2 thumbnail">
@@ -93,7 +135,7 @@
                         <div class="game_cell_data">
                             <div class="game_title">
                                 <a class="title game_link" href="project-folder/project3/project.html">
-                                   Minesweeper
+                                    Minesweeper
                                 </a>
                             </div>
                             <div title="Project description" class="game_text">
@@ -102,7 +144,7 @@
                         </div>
                     </div>
 
-                    <div class="game_cell" >
+                    <div class="game_cell">
                         <div class="game_thumb">
                             <a class="thumb_link game_link" href="project-folder/project4/project.html" tabindex="-1">
                                 <img height="250" width="350" src="Images/p4.png" alt="project 2 thumbnail">
@@ -111,7 +153,7 @@
                         <div class="game_cell_data">
                             <div class="game_title">
                                 <a class="title game_link" href="project-folder/project4/project.html">
-                                   Project 4
+                                    Project 4
                                 </a>
                             </div>
                             <div title="Project description" class="game_text">
@@ -131,4 +173,3 @@
     <p>Zero One 2026</p>
     <a href="index.html">Zero One</a>
 </footer>
-
