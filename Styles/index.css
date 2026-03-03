@@ -27,6 +27,10 @@
     --super-background-color: #C5B9AD;
 }
 
+body{
+    background-color: #F0F0F0;
+}
+
 .main_page.mode_column .columns {
     min-height: 400px;
     display: flex;
@@ -130,6 +134,7 @@ footer {
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
+    background-color: #FFFFFF;
   }
   
   p + p {
@@ -174,7 +179,4 @@ table{
 .game_column{
         background-color: var(--super-background-color);
         padding: 10px;
-}
-.profile_column{
-    background-color: #F0F0F0;
 }
