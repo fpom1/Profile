@@ -175,3 +175,6 @@ table{
         background-color: var(--super-background-color);
         padding: 10px;
 }
+.profile_column{
+    background-color: #F0F0F0;
+}
