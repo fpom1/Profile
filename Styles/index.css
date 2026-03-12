@@ -25,6 +25,7 @@
     --nav-hover-background-color: #FFFFFF;
     --nav-visited-color: #C74B20;
     --super-background-color: #C5B9AD;
+    --fun-gray: #dadada;
 }
 
 body{
@@ -99,7 +100,7 @@ a:hover {
 }
 
 footer {
-    border-top: 1px solid #dadada;
+    border-top: 1px solid var(--fun-gray);
     font-size: 12px;
 }
 
@@ -134,7 +135,7 @@ footer {
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 1em;
-    background-color: #FFFFFF;
+    background-color: var(--nav-background-color);
   }
   
   p + p {
